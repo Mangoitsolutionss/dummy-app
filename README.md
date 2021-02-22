@@ -1,6 +1,3 @@
-# dummy-app
-Dummy App
-class DummyApp
   @@public_path = File.join(File.expand_path("../../", __FILE__), 'public', 'pages')
 
   def call(env)
